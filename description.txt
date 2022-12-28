@@ -1,1 +1,3 @@
 /// This file contains practiced commands overview ///
+
+git merge --squash (name of the branch) -> joining all previous commits in one and merging afterwards
