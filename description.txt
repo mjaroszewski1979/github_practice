@@ -4,3 +4,5 @@ git merge --squash (name of the branch) -> joining all previous commits in one a
 git checkout -b <name of new branch>
 git switch -c <name of new branch>
 git commit -am "<commit message>"
+git log --oneline <displays commit hashes>
+git reset --hard <commit hash>
