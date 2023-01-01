@@ -7,3 +7,4 @@ git commit -am "<commit message>"
 git log --oneline <displays commit hashes>
 git reset --hard <commit hash>
 git show HEAD
+git difftool <older commit ref> <newer commit ref>
