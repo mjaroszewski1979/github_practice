@@ -28,5 +28,7 @@ git branch -m <new name> -> current HEAD branch renamed
 git branch -m <old name> <new name> -> non HEAD branch renamed
 git push origin --delete <old name> -> first delete old/current branch
 git push -u origin <new name> -> then pushing local renamed branch
+/// tracking branches ///
+git checkout -- track origin/<name of the remote branch not present locally>
 
 
