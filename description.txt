@@ -6,3 +6,4 @@ git switch -c <name of new branch>
 git commit -am "<commit message>"
 git log --oneline <displays commit hashes>
 git reset --hard <commit hash>
+git show HEAD
