@@ -23,6 +23,8 @@ git rebase branch A
 /// start new branch ///
 git branch <name of the new branch> -> starts at the recent head
 git branch <name of the new branch> <revision hash> -> starts at the point specified by revision hash
-/// rename current HEAD branch ///
-git branch -m <new name>
+/// rename branch ///
+git branch -m <new name> -> current HEAD branch renamed
+git branch -m <old name> <new name> -> non HEAD branch renamed
+
 
