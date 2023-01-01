@@ -16,3 +16,10 @@ git checkout <branch name> -> head pointer now at last commit within chosen bran
 merge branch A into branch B -> 
 git checkout branch B 
 git merge branch A 
+/// git rebase ///
+rebase branch B on branch A ->
+git checkout branch B 
+git rebase branch A 
+/// start new branch ///
+git branch <name of the new branch> -> starts at the recent head
+git branch <name of the new branch> <revision hash> -> starts at the point specified by revision hash
