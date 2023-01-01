@@ -9,3 +9,6 @@ git reset --hard <commit hash>
 git show HEAD
 git difftool <older commit ref> <newer commit ref>
 git difftool <HEAD~[older]> <HEAD~[newer]>
+/// detached head state ///
+git checkout <commit ref> -> head pointer now at chosen commit
+git checkout <branch name> -> head pointer now at last commit within chosen branch
