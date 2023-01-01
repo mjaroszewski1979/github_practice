@@ -12,3 +12,7 @@ git difftool <HEAD~[older]> <HEAD~[newer]>
 /// detached head state ///
 git checkout <commit ref> -> head pointer now at chosen commit
 git checkout <branch name> -> head pointer now at last commit within chosen branch
+/// git merge ///
+merge branch A into branch B -> 
+git checkout branch B 
+git merge branch A 
