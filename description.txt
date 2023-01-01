@@ -8,3 +8,4 @@ git log --oneline <displays commit hashes>
 git reset --hard <commit hash>
 git show HEAD
 git difftool <older commit ref> <newer commit ref>
+git difftool <HEAD~[older]> <HEAD~[newer]>
