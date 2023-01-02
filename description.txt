@@ -36,5 +36,9 @@ git checkout -- track origin/<name of the remote branch not present locally>
 git cherry-pick <revision hash from the branch that we want to pick from>
 git switch <branch name>
 git reset --hard <revision hash> -> removing commit accidently commited to the wrong branch
+/// reflog ///
+git reflog -> chronological diary of all previous actions, very useful when we want to restore 
+accidently deleted commit or branch
+
 
 
