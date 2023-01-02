@@ -34,5 +34,7 @@ git push -u origin <new name> -> then pushing local renamed branch
 git checkout -- track origin/<name of the remote branch not present locally>
 /// cherry pick ///
 git cherry-pick <revision hash from the branch that we want to pick from>
+git switch <branch name>
+git reset --hard <revision hash> -> removing commit accidently commited to the wrong branch
 
 
