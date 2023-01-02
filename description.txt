@@ -49,6 +49,12 @@ git log
 3. by author --author
 4. by file --<filename>
 5. by branch <branch-A>
+/// alias ///
+git config --globa alias.ac '!git add -A && git commit -m' -> adds and commits all changes in current repo
+git ac "message" -> to run new alias
+/// revert ///
+git revert HEAD -> undo most recent commit
+git revert <revision hash> -> undo specified commit
 
 
 
