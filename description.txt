@@ -32,5 +32,7 @@ git push origin --delete <old name> -> first delete old/current branch
 git push -u origin <new name> -> then pushing local renamed branch
 /// tracking branches ///
 git checkout -- track origin/<name of the remote branch not present locally>
+/// cherry pick ///
+git cherry-pick <revision hash from the branch that we want to pick from>
 
 
