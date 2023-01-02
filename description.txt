@@ -39,6 +39,9 @@ git reset --hard <revision hash> -> removing commit accidently commited to the w
 /// reflog ///
 git reflog -> chronological diary of all previous actions, very useful when we want to restore 
 accidently deleted commit or branch
+/// submodule ///
+git submodule add <https...url of library we want to include>
+
 
 
 
