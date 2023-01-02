@@ -41,6 +41,15 @@ git reflog -> chronological diary of all previous actions, very useful when we w
 accidently deleted commit or branch
 /// submodule ///
 git submodule add <https...url of library we want to include>
+git clone --recurse-submodules <url of third party code that contains other submodules>
+/// search & find ///
+git log
+1. by date: --after="1.1.2023" / --before
+2. by message --grep
+3. by author --author
+4. by file --<filename>
+5. by branch <branch-A>
+
 
 
 
