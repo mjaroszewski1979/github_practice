@@ -20,6 +20,8 @@ git merge branch A
 rebase branch B on branch A ->
 git checkout branch B 
 git rebase branch A 
+
+git rebase -i <revision hash> -> reword to change specified commit message
 /// start new branch ///
 git branch <name of the new branch> -> starts at the recent head
 git branch <name of the new branch> <revision hash> -> starts at the point specified by revision hash
