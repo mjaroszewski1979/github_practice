@@ -55,6 +55,10 @@ git ac "message" -> to run new alias
 /// revert ///
 git revert HEAD -> undo most recent commit
 git revert <revision hash> -> undo specified commit
+/// restore ///
+git restore <filename> -> discarding all local changes in the file
+git restore --staged <filename> -> use to unstage local chenges in the file( after add, before commit )
+
 
 
 
