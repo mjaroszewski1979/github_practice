@@ -58,6 +58,7 @@ git revert <revision hash> -> undo specified commit
 /// restore ///
 git restore <filename> -> discarding all local changes in the file
 git restore --staged <filename> -> use to unstage local chenges in the file( after add, before commit )
+git restore <filename> -> restoring deleted file (must have been staged before deletion)
 
 
 
