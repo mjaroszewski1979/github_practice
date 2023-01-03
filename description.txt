@@ -60,9 +60,13 @@ git restore <filename> -> discarding all local changes in the file
 git restore --staged <filename> -> use to unstage local chenges in the file( after add, before commit )
 git restore <filename> -> restoring deleted file (must have been staged before deletion)
 git restore -p <filename> -> keep or delete chunks of file
+git restore --source <revision hash> <file name> -> resetting a file to an old revision
 git restore .  -> discarding all the local chenges
 /// amend ///
 git commit --amend -m <new commit message> -> changing last commits message
+/// reset ///
+git reset --hard <revision hash> -> resets to revision with specified hash without keeping changes
+git reset -- mixed <revision hash> -> resets to revision with specified hash keeps changes unstaged
 
 
 
