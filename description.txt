@@ -67,6 +67,14 @@ git commit --amend -m <new commit message> -> changing last commits message
 /// reset ///
 git reset --hard <revision hash> -> resets to revision with specified hash without keeping changes
 git reset -- mixed <revision hash> -> resets to revision with specified hash keeps changes unstaged
+/// config ///
+git config -- global user.name <username>
+git config --global user.email <email>
+git config --globale core.editor <code editor>
+git config --global -e -> displays config settings in editor
+git config --global core.autocrlf -> set to true if on windows or to input if on mac or linux 
+''' carriage return line feed - windows (cr lf)/mac or linux(lf) '''
+
 
 
 
