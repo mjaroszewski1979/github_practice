@@ -74,7 +74,9 @@ git config --globale core.editor <code editor>
 git config --global -e -> displays config settings in editor
 git config --global core.autocrlf -> set to true if on windows or to input if on mac or linux 
 ''' carriage return line feed - windows (cr lf)/mac or linux(lf) '''
-
+/// rm ///
+git rm <filename> <filename> -> remove file(s) from current working directory and staging area
+git rm *.txt -> using patterns when removing files
 
 
 
