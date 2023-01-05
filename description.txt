@@ -87,7 +87,11 @@ git ls-files -> list of current files in the staging area
 /// short status ///
 git status -s
 /// diff ///
+git diff -> changes in files from working dir to staging area
 git diff --staged -> viewing changes in files in staging area within terminal window
+/// show ///
+git show <revision hash> or HEAD pointer -> display commit specified by hash or HEAD pointer
+git ls-tree <revision hash> or HEAD pointer -> view all the files and subdirs in specified commit
 
 
 
