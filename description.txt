@@ -77,12 +77,15 @@ git config --global core.autocrlf -> set to true if on windows or to input if on
 /// rm ///
 git rm <filename> <filename> -> remove file(s) from current working directory and staging area
 git rm *.txt -> using patterns when removing files
+git rm --cached <filename> -> remove file from the index
 /// mv ///
 git mv <old file name> <new file name>
 /// .gitignore ///
 should be placed in root directory, files that need to be ignored must be listed in .gitignore before staging
 /// ls-files ///
 git ls-files -> list of current files in the staging area
+/// short status ///
+git status -s
 
 
 
