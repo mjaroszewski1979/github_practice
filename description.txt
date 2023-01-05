@@ -86,6 +86,8 @@ should be placed in root directory, files that need to be ignored must be listed
 git ls-files -> list of current files in the staging area
 /// short status ///
 git status -s
+/// diff ///
+git diff --staged -> viewing changes in files in staging area within terminal window
 
 
 
